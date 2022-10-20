@@ -4,14 +4,14 @@ body {
 }
 
 /* Title Section */
-#title .container-fluid {
-	padding: 3% 12% 7%;
+.container-fluid {
+	padding: 1% 10% 7%;
 }
 
-.colored-section {
+/* .colored-section {
   background-color: black;
   color: white;
-}
+} */
 
 /* Navigation Bar */
 .navbar {
@@ -20,8 +20,8 @@ body {
 
 .navbar-brand {
 	font-family: "Ubuntu";
-	font-size: 1.5rem;
-	font-weight: light;
+	font-size: 2rem;
+	font-weight: 900;
 }
 
 .brand-logo {
@@ -34,4 +34,16 @@ body {
 
 .nav-link {
 	font-size: 1.2rem;
+}
+
+/*Profile Section*/
+.name {
+	font-weight: 900;
+	font-family: "Ubuntu";
+	font-size: 3.5rem;
+	margin-top: 1%;
+}
+
+.profile-photo {
+	border-radius: 100%;
 }
