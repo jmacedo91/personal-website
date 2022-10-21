@@ -4,6 +4,10 @@ body {
 }
 
 /* Title Section */
+#title .container-fluid {
+	padding: 0 10% 7%;
+}
+
 .container-fluid {
 	padding: 1% 10% 7%;
 }
@@ -36,12 +40,16 @@ body {
 	font-size: 1.2rem;
 }
 
+.contact-icon {
+	margin-left: 1px;
+}
+
 /*Profile Section*/
 .name {
 	font-weight: 900;
 	font-family: "Ubuntu";
 	font-size: 3.5rem;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 .profile-photo {
