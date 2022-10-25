@@ -11,5 +11,7 @@ function typeWriter() {
 }
 
 $(".about").click(function () {
+  $("#typed-text").text("");
+  i = 0;
   typeWriter();
 });
