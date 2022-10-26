@@ -1,3 +1,4 @@
+// paragraph animation
 var i = 0;
 var txt = "Hello, I'm a Chemist, a Data Science student and I work as a Laboratory\
  Analyst at PróLab Biotechnology.";
@@ -16,4 +17,3 @@ $(".about").click(function () {
   i = 0;
   typeWriter();
 });
-
