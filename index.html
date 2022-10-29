@@ -6,7 +6,7 @@
     <title>Jonathan Macedo | My Personal Page</title>
 
     <!-- Title icon -->
-    <link rel="icon" href="images/jonathan.png" type="image/png">
+    <link rel="icon" href="images/jonathan1.png" type="image/png">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
 
   <body>
 
-    <section class="" id="title">
+    <section class="mb-5" id="title">
       <div class="container-fluid">
       <!--Navbar-->
         <nav class="navbar navbar-light navbar-expand-lg">
@@ -44,10 +44,10 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link about" href="#typed-text">About</a>
+                <a class="nav-link about" href="#title">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link portfolio" href="#">Portfolio</a>
+                <a class="nav-link portfolio" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link contact" href="#footer">Contact</a>
@@ -57,7 +57,7 @@
         </nav>
       </div>
 
-      <div class="row container-fluid">
+      <div class="row container-fluid anime-title">
         <div class="col-lg-6">
           <img class="profile-photo" src="images/jonathan1.png" />
         </div>
@@ -70,57 +70,61 @@
       </div>
     </section>
 
-    <section>
-      <div class="p-5 mb-4 bg-light rounded-3 container text-start">
+<!-- Portfolio Section -->
+    <section id="portfolio">
+      <h1 class="portfolio-title anime-title">Scroll to see the portfolio</h1>
+      <div class="p-5 mb-4 bg-light rounded-3 container text-start border border-dark anime">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Frequências e Medidas</h1>
           <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button>
+          <a href="https://github.com/jmacedo91/Statistics-With-Python-Alura/blob/main/Curso_de_Estat%C3%ADstica_Parte_1.ipynb" target="_blank"><button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button></a>
         </div>
       </div>
 
-      <div class="p-5 mb-4 bg-light rounded-3 container text-start">
+      <div class="p-5 mb-4 bg-light rounded-3 container text-start border border-dark anime">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Probabilidade e Amostragem</h1>
           <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button>
+          <a href="https://github.com/jmacedo91/Statistics-With-Python-Alura/blob/main/Curso_de_Estat%C3%ADstica_Parte_2.ipynb" target="_blank"><button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button></a>
         </div>
       </div>
 
-      <div class="p-5 mb-4 bg-light rounded-3 container text-start">
+      <div class="p-5 mb-4 bg-light rounded-3 container text-start border border-dark anime">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Testes de Hipóteses</h1>
           <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button>
+          <a href="https://github.com/jmacedo91/Statistics-With-Python-Alura/blob/main/Curso_de_Estat%C3%ADstica_Parte_3.ipynb" target="_blank"><button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button></a>
         </div>
       </div>
 
-      <div class="p-5 mb-4 bg-light rounded-3 container text-start">
+      <div class="p-5 mb-4 bg-light rounded-3 container text-start border border-dark anime">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Correlação e Regressão</h1>
           <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button>
+          <a href="https://github.com/jmacedo91/Statistics-With-Python-Alura/blob/main/Curso_de_Estat%C3%ADstica_Parte_4.ipynb" target="_blank"><button class="btn btn-dark btn-lg" type="button">Acesse o notebook</button></a>
         </div>
       </div>
     </section>
 
+    <section id="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Jonathan Macedo, Inc</span>
+          </div>
 
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-muted">© 2022 Jonathan Macedo, Inc</span>
-        </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <i class="fa-brands fa-twitter icon"></i>
+            <i class="fa-brands fa-instagram icon"></i>
+            <i class="fa-brands fa-facebook icon"></i>
+          </ul>
+        </footer>
+      </div>
+    </section>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <i class="fa-brands fa-twitter icon"></i>
-          <i class="fa-brands fa-instagram icon"></i>
-          <i class="fa-brands fa-facebook icon"></i>
-        </ul>
-      </footer>
-    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
