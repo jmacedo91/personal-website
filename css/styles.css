@@ -1,7 +1,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
-	background-color: #CED89E;
+	background-color: #495C83;
 }
 
 h1 {
@@ -17,7 +17,7 @@ p {
 
 /* Title Section */
 #title {
-	background-color: #76BA99;
+	background-color: #495C83;
 }
 
 #title .container-fluid {
@@ -74,7 +74,7 @@ p {
 /* Portfolio Section */
 #portfolio {
 	margin-top: 10%;
-	background-color: #ADCF9F;
+	background-color: #495C83;
 }
 
 .anime {
@@ -98,6 +98,7 @@ p {
 .icon {
 	height: 30px;
 	width: 30px;
+	color: white;
 }
 
 @media (max-width: 991px) {
@@ -109,6 +110,10 @@ p {
 @media (max-width: 490px) {
 	h1 {
 		font-size: 2.5rem;
+	}
+
+	.p-5 {
+		padding: 1rem;
 	}
 
 	.navbar-toggler {
