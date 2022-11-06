@@ -1,6 +1,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
+	background-color: #CED89E;
 }
 
 h1 {
@@ -15,6 +16,10 @@ p {
 }
 
 /* Title Section */
+#title {
+	background-color: #76BA99;
+}
+
 #title .container-fluid {
 	padding: 0 10% 3%;
 }
@@ -69,6 +74,7 @@ p {
 /* Portfolio Section */
 #portfolio {
 	margin-top: 10%;
+	background-color: #ADCF9F;
 }
 
 .anime {
