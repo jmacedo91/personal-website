@@ -112,4 +112,8 @@ p {
 	.navbar-brand {
 		margin: 0 auto;
 	}
+
+	.container {
+		width: 90%;
+	}
 }
