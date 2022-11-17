@@ -18,6 +18,7 @@ p {
 /* Title Section */
 #title {
 	background-color: #495C83;
+	color: white;
 }
 
 #title .container-fluid {
@@ -75,6 +76,10 @@ p {
 #portfolio {
 	margin-top: 10%;
 	background-color: #495C83;
+}
+
+.portfolio-title {
+	color: white;
 }
 
 .anime {
