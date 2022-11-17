@@ -78,8 +78,17 @@ p {
 	background-color: #495C83;
 }
 
+#portfolio .container {
+	width: 70%;
+}
+
 .portfolio-title {
 	color: white;
+}
+
+.button-box {
+	width: 223px;
+	margin: 0 auto;
 }
 
 .anime {
@@ -100,6 +109,9 @@ p {
 }
 
 /*Footer Section*/
+#footer {
+	color: white;
+}
 .icon {
 	height: 30px;
 	width: 30px;
@@ -129,7 +141,11 @@ p {
 		margin: 0 auto;
 	}
 
-	.container {
+	#portfolio .container {
 		width: 90%;
+	}
+
+	.copyright {
+		margin: 0 auto;
 	}
 }
