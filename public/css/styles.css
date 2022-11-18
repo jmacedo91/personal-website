@@ -118,6 +118,10 @@ p {
 	color: white;
 }
 
+.form-floating {
+	color: black;
+}
+
 @media (max-width: 991px) {
 	.about-text {
 		margin-top: 10%;
